@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        SinhVien sv=new SinhVien(12, "ba");
-        System.out.println(sv.getAge());
-        System.out.println(sv.getName());
-        SinhVien sv2=new SinhVien();
-        System.out.println(sv2.age);
+        SinhVien sv1 = new SinhVien(13, "nam");
+        System.out.println(sv1.getAge());
+        System.out.println(sv1.getName());
+        System.out.println(sv1.age);
+        System.out.println(sv1.name);
     }
 }
