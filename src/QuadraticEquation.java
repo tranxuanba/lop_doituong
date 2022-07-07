@@ -24,11 +24,11 @@ public class QuadraticEquation {
         return detal;
     }
     double getRoot1() {
-        double r1 = (-this.b + getDiscriminant())/(2 * this.a);
+        double r1 = (-this.b + Math.sqrt(getDiscriminant()))/(2 * this.a);
         return r1;
     }
     double getRoot2() {
-        double r2 = (-this.b - getDiscriminant())/(2 * this.a);
+        double r2 = (-this.b - Math.sqrt(getDiscriminant()))/(2 * this.a);
         return r2;
     }
 
